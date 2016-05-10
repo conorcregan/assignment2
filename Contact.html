@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+	<div class="container">
+    	<div class="row">
+         <div class="row">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                  MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">Portfolio<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Photography.html">Photography</a></li>
+                            <li><a href="Design.html">Design</a></li>
+                            <li><a href="Media.html">Media</a></li>
+                        </ul>                    
+                    </li>
+                    
+                    <li class="active"><a href="Contact.html">Contact</a></li>
+                </ul> 
+            </div>
+         </nav> 
+    </div>
+    <header class="row">
+      <div class="col-lg-6 col-sm-5">
+          <a href="index.html"><img src="img/logo.png" alt="Wisdom Pets. click for home." class="img-responsive"></a>
+        </div>
+      <div class="col-lg-6 col-sm-7">
+          <img src="img/animals.jpg" alt="" class="hidden-xs img-responsive">
+        </div>
+    </header>
+            <center><article class="col-sm-8 col-sm-push-4">
+                        <aside class="col-lg-6 col-md-5">
+          <h3>Contact information</h3>
+            <p>Contacting me is easy! Refer to this handy table for contact information.</p>
+            <div class="table-responsive">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>Conor Cregan</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td>+353852135122</td>
+                    <td>conorc456@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>+353 01 8214675</td>
+                    <td>B00082057@itb.ie</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+         </aside>
+             </article>
+             <aside class="col-sm-4 col-sm-pull-8">
+             <h1>Contact Form</h1>
+              <form action="order.php" method="get">
+First name: <input type="text" name="FirstName" value="" maxlength="50"/><br>
+Last name: <input type="text" name="LastName" value="" maxlength="50"/><br>
+Email: <input type="text" name="Email" value="" maxlength="50"/><br>
+Message: <input type="text" name="Message" value="" maxlength="400"/><br>
+Telephone (Optional): <input type="text" name="Telephone" value="" maxlength="50"/><br>
+<input type="submit" value="Send">
+</form>
+
+	</div>
+
+    <!-- row 4 -->
+    <footer class="row">
+         <p><small>©Conor Cregan 2015-2015. All rights reserved. Portfolio created with Bootstrap.</small></p>
+    </footer>
+<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
